@@ -50,7 +50,7 @@ enum CloudIcon {
             return true
         }
         image.isTemplate = true
-        image.accessibilityDescription = "cloudet drag'n'drop"
+        image.accessibilityDescription = "Cloudet"
         return image
     }
 

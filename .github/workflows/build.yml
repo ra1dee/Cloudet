@@ -37,7 +37,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: cloudet-${{ github.sha }}
+          name: Cloudet-${{ github.sha }}
           path: dist/*.dmg
           if-no-files-found: error
 
@@ -49,6 +49,6 @@ jobs:
           body: |
             macOS 14 or later. Apple Silicon and Intel.
 
-            Download the DMG, open it, and drag **cloudet drag'n'drop** into Applications. The first time, right-click the app and choose Open. This GitHub build is not notarized.
+            Download the DMG, open it, and drag **Cloudet** into Applications. The first time, right-click the app and choose Open. This GitHub build is not notarized.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

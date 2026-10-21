@@ -25,15 +25,15 @@
 		<string>zh-Hant</string>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>cloudet</string>
+	<string>Cloudet</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>app.cloudet.mac</string>
 	<key>CFBundleDisplayName</key>
-	<string>cloudet drag'n'drop</string>
+	<string>Cloudet</string>
 	<key>CFBundleName</key>
-	<string>cloudet</string>
+	<string>Cloudet</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

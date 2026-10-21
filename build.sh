@@ -1,5 +1,5 @@
 #!/bin/bash
-# Собирает cloudet, прогоняет проверки и, по флагу, упаковывает .dmg.
+# Собирает Cloudet, прогоняет проверки и, по флагу, упаковывает .dmg.
 #   ./build.sh            собрать и запустить
 #   ./build.sh --test     ещё и проверить имена, размеры и индекс
 #   ./build.sh --dmg      универсальный .dmg в dist/, без подписи и без запуска
@@ -32,7 +32,7 @@ if [[ ! -x "$SWIFTC" ]]; then
   exit 1
 fi
 
-APP="build/cloudet drag'n'drop.app"
+APP="build/Cloudet.app"
 DEPLOYMENT=14.0
 VERSION="${CLOUDET_VERSION:-1.0}"
 VERSION="${VERSION#v}"
@@ -74,14 +74,14 @@ stage_app() {
   local slices=()
   local arch
   for arch in "${arches[@]}"; do
-    local slice="$APP/Contents/MacOS/cloudet-$arch"
+    local slice="$APP/Contents/MacOS/Cloudet-$arch"
     compile "$arch" "$slice" Sources/*.swift
     slices+=("$slice")
   done
   if [[ "${#slices[@]}" -eq 1 ]]; then
-    mv "${slices[0]}" "$APP/Contents/MacOS/cloudet"
+    mv "${slices[0]}" "$APP/Contents/MacOS/Cloudet"
   else
-    lipo -create "${slices[@]}" -output "$APP/Contents/MacOS/cloudet"
+    lipo -create "${slices[@]}" -output "$APP/Contents/MacOS/Cloudet"
     rm -f "${slices[@]}"
   fi
 
@@ -101,7 +101,7 @@ stage_app() {
   ./build/makeicon "Resources/AppIcon.icns"
   cp Resources/AppIcon.icns "$APP/Contents/Resources/AppIcon.icns"
   if [[ "$UNIVERSAL" -eq 1 ]]; then
-    lipo -info "$APP/Contents/MacOS/cloudet"
+    lipo -info "$APP/Contents/MacOS/Cloudet"
   fi
 }
 
@@ -109,15 +109,15 @@ make_dmg() {
   mkdir -p dist
   local stage
   stage="$(mktemp -d)"
-  ditto "$APP" "$stage/cloudet drag'n'drop.app"
+  ditto "$APP" "$stage/Cloudet.app"
   ln -s /Applications "$stage/Applications"
-  local output="dist/cloudet-${VERSION}.dmg"
+  local output="dist/Cloudet-${VERSION}.dmg"
   rm -f "$output"
   # hdiutil на новых macOS помечен устаревшим, на старых runner его замена ещё не везде есть.
-  if ! diskutil image create from --format UDZO --volumeName "cloudet" "$stage" "$output"; then
+  if ! diskutil image create from --format UDZO --volumeName "Cloudet" "$stage" "$output"; then
     rm -f "$output"
     hdiutil create \
-      -volname "cloudet" \
+      -volname "Cloudet" \
       -srcfolder "$stage" \
       -ov \
       -format UDZO \
@@ -146,6 +146,7 @@ if [[ "$LAUNCH" -eq 1 ]]; then
   pkill -x DropyCopy 2>/dev/null || true
   pkill -x Whisp 2>/dev/null || true
   pkill -x cloudet 2>/dev/null || true
+  pkill -x Cloudet 2>/dev/null || true
   sleep 0.3
   open "$APP"
   echo "Запущено: $APP"

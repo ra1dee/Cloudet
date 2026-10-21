@@ -1,4 +1,4 @@
-# cloudet drag'n'drop
+# Cloudet
 
 A floating cloud for macOS. Drop files onto it and they stay as copies: the original stays where it is, and the copy can be dragged somewhere else.
 
@@ -22,7 +22,7 @@ The interface follows the system language: English, Russian, German, French, Spa
 ## Install
 
 1. Download the latest DMG from [Releases](https://github.com/ra1dee/cloudet-drag-n-drop/releases).
-2. Open the disk image and drag **cloudet drag'n'drop** into Applications.
+2. Open the disk image and drag **Cloudet** into Applications.
 3. The first time, right-click the app and choose **Open**. This build is not notarized, so macOS asks you to confirm.
 
 ## Credits

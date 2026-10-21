@@ -28,7 +28,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         if let button = item.button {
             let image = CloudIcon.menuImage()
             button.image = image
-            button.toolTip = "cloudet drag'n'drop"
+            button.toolTip = "Cloudet"
         }
         let menu = NSMenu()
         menu.delegate = self
@@ -37,7 +37,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(.separator())
         menu.addItem(withTitle: L10n.tr("Clear Cloud"), action: #selector(clearBuffer), keyEquivalent: "")
         menu.addItem(.separator())
-        menu.addItem(withTitle: L10n.tr("Quit cloudet"), action: #selector(quit), keyEquivalent: "q")
+        menu.addItem(withTitle: L10n.tr("Quit Cloudet"), action: #selector(quit), keyEquivalent: "q")
         for item in menu.items {
             item.target = self
         }
