@@ -28,3 +28,7 @@ The interface follows the system language: English, Russian, German, French, Spa
 ## Credits
 
 The cloud silhouette is drawn from [Tabler Icons](https://github.com/tabler/tabler-icons) `cloud-filled` (MIT, Paweł Kuna).
+
+## License
+
+Cloudet is released under the [MIT License](LICENSE).
