@@ -7,46 +7,23 @@ The app lives in the menu bar. The cloud floats above other windows, on every de
 ## What you can drop
 
 - Files, folders, and packages from Finder.
-- Images copied from a browser, a screenshot, or an image link (PNG, JPEG, GIF, WebP, HEIC, TIFF, BMP, SVG, AVIF, and others).
+- Images from a browser, a screenshot, or an image link: PNG, JPEG, GIF, WebP, HEIC, TIFF, BMP, SVG, and AVIF.
 
-Copies are kept in `~/Library/Application Support/cloudet`. Clearing the cloud, or removing one item, deletes only those copies.
+Copies stay in the cloud until you remove them. Clearing the cloud, or removing one item, deletes only those copies.
 
-Drag a row out to copy it into another app. Double-click a row to show that copy in Finder.
+Drag a row out to copy it into another app. Double-click a row to show that copy in Finder. From the menu bar you can show or hide the cloud, open the copies in Finder, clear the cloud, or quit.
 
 ## Requirements
 
-macOS 14 or later. Release builds are universal: Apple Silicon and Intel.
+macOS 14 or later, on Apple Silicon or Intel.
 
 The interface follows the system language: English, Russian, German, French, Spanish, Portuguese, Brazilian Portuguese, Italian, Dutch, Polish, Ukrainian, Turkish, Arabic, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
 
 ## Install
 
-1. Open [Releases](../../releases) and download `cloudet-<version>.dmg`.
+1. Download the latest DMG from [Releases](https://github.com/ra1dee/cloudet-drag-n-drop/releases).
 2. Open the disk image and drag **cloudet drag'n'drop** into Applications.
-3. The first time, right-click the app and choose **Open**. Builds from GitHub are not signed with a Developer ID and are not notarized, so macOS asks you to confirm.
-
-## Menu bar
-
-- **Show Cloud** / **Hide Cloud**
-- **Open Copies in Finder**
-- **Clear Cloud** — removes copies only
-- **Quit cloudet**
-
-## Build
-
-Xcode is required.
-
-```bash
-./build.sh                 # build and launch
-./build.sh --test          # the same, plus checks
-./build.sh --dmg           # dist/cloudet-<version>.dmg, without launching
-```
-
-The disk image version comes from `CLOUDET_VERSION` (default `1.0`).
-
-## Release
-
-Push a tag such as `v1.0.0`. Actions builds the DMG and attaches it to a GitHub Release. A build that is not a release is kept as an artifact on every push to `main`.
+3. The first time, right-click the app and choose **Open**. This build is not notarized, so macOS asks you to confirm.
 
 ## Credits
 
