@@ -11,7 +11,7 @@ The app lives in the menu bar. The cloud floats above other windows, on every de
 
 Copies stay in the cloud until you remove them. Clearing the cloud, or removing one item, deletes only those copies.
 
-Drag a row out to copy it into another app. Double-click a row to show that copy in Finder. From the menu bar you can show or hide the cloud, open the copies in Finder, clear the cloud, or quit.
+Drag a row out to copy it into another app. Double-click a row to show that copy in Finder. From the menu bar you can show or hide the cloud, choose a shortcut for that, open the copies in Finder, clear the cloud, or quit.
 
 ## Requirements
 

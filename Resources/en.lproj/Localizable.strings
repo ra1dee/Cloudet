@@ -17,3 +17,14 @@
 "Image" = "Image";
 "That isn’t an image." = "That isn’t an image.";
 "Couldn’t read the cloud index." = "Couldn’t read the cloud index.";
+"Settings…" = "Settings…";
+"Settings" = "Settings";
+"Show or Hide Cloud" = "Show or Hide Cloud";
+"Record Shortcut" = "Record Shortcut";
+"Type a shortcut" = "Type a shortcut";
+"Use Command, Option, or Control." = "Use Command, Option, or Control.";
+"This shortcut is reserved by macOS." = "This shortcut is reserved by macOS.";
+"This shortcut is already in use." = "This shortcut is already in use.";
+"Space" = "Space";
+"Click the field and press a shortcut." = "Click the field and press a shortcut.";
+"Clear Shortcut" = "Clear Shortcut";

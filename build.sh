@@ -46,6 +46,7 @@ compile() {
     -target "${arch}-apple-macosx${DEPLOYMENT}" \
     -sdk "$SDK" \
     -framework AppKit \
+    -framework Carbon \
     -framework ImageIO \
     -framework SwiftUI \
     -o "$output" \

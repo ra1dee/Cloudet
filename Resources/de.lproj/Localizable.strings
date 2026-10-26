@@ -17,3 +17,14 @@
 "Image" = "Bild";
 "That isn’t an image." = "Das ist kein Bild.";
 "Couldn’t read the cloud index." = "Die Wolkenliste konnte nicht gelesen werden.";
+"Settings…" = "Einstellungen…";
+"Settings" = "Einstellungen";
+"Show or Hide Cloud" = "Cloud ein- oder ausblenden";
+"Record Shortcut" = "Kurzbefehl festlegen";
+"Type a shortcut" = "Kurzbefehl drücken";
+"Use Command, Option, or Control." = "Command, Option oder Control hinzufügen.";
+"This shortcut is reserved by macOS." = "Dieser Kurzbefehl ist von macOS reserviert.";
+"This shortcut is already in use." = "Dieser Kurzbefehl wird bereits verwendet.";
+"Space" = "Leertaste";
+"Click the field and press a shortcut." = "Klicken Sie auf das Feld und drücken Sie einen Kurzbefehl.";
+"Clear Shortcut" = "Kurzbefehl löschen";

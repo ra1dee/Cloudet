@@ -17,3 +17,14 @@
 "Image" = "图像";
 "That isn’t an image." = "这不是图像。";
 "Couldn’t read the cloud index." = "无法读取云朵列表。";
+"Settings…" = "设置…";
+"Settings" = "设置";
+"Show or Hide Cloud" = "显示或隐藏云朵";
+"Record Shortcut" = "设置快捷键";
+"Type a shortcut" = "按下快捷键";
+"Use Command, Option, or Control." = "请加上 Command、Option 或 Control。";
+"This shortcut is reserved by macOS." = "这个快捷键已被 macOS 保留。";
+"This shortcut is already in use." = "这个快捷键已被占用。";
+"Space" = "空格";
+"Click the field and press a shortcut." = "点按此栏，然后按下快捷键。";
+"Clear Shortcut" = "清除快捷键";

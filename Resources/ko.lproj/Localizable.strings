@@ -17,3 +17,14 @@
 "Image" = "이미지";
 "That isn’t an image." = "이미지가 아닙니다.";
 "Couldn’t read the cloud index." = "클라우드 목록을 읽지 못했습니다.";
+"Settings…" = "설정…";
+"Settings" = "설정";
+"Show or Hide Cloud" = "클라우드 표시 또는 가리기";
+"Record Shortcut" = "단축키 지정";
+"Type a shortcut" = "단축키를 누르세요";
+"Use Command, Option, or Control." = "Command, Option 또는 Control을 추가하세요.";
+"This shortcut is reserved by macOS." = "이 단축키는 macOS가 예약했습니다.";
+"This shortcut is already in use." = "이 단축키는 이미 사용 중입니다.";
+"Space" = "스페이스";
+"Click the field and press a shortcut." = "필드를 클릭한 다음 단축키를 누르세요.";
+"Clear Shortcut" = "단축키 지우기";

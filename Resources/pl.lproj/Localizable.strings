@@ -17,3 +17,14 @@
 "Image" = "Obraz";
 "That isn’t an image." = "To nie jest obraz.";
 "Couldn’t read the cloud index." = "Nie udało się odczytać listy chmury.";
+"Settings…" = "Ustawienia…";
+"Settings" = "Ustawienia";
+"Show or Hide Cloud" = "Pokaż lub ukryj chmurę";
+"Record Shortcut" = "Ustaw skrót";
+"Type a shortcut" = "Naciśnij skrót";
+"Use Command, Option, or Control." = "Dodaj Command, Option lub Control.";
+"This shortcut is reserved by macOS." = "Ten skrót jest zarezerwowany przez macOS.";
+"This shortcut is already in use." = "Ten skrót jest już używany.";
+"Space" = "Spacja";
+"Click the field and press a shortcut." = "Kliknij pole i naciśnij skrót.";
+"Clear Shortcut" = "Wyczyść skrót";

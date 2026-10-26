@@ -17,3 +17,14 @@
 "Image" = "画像";
 "That isn’t an image." = "画像ではありません。";
 "Couldn’t read the cloud index." = "クラウドの一覧を読み取れませんでした。";
+"Settings…" = "設定…";
+"Settings" = "設定";
+"Show or Hide Cloud" = "クラウドを表示または隠す";
+"Record Shortcut" = "ショートカットを設定";
+"Type a shortcut" = "ショートカットを押す";
+"Use Command, Option, or Control." = "Command、Option、Control のいずれかを加えてください。";
+"This shortcut is reserved by macOS." = "このショートカットは macOS で予約されています。";
+"This shortcut is already in use." = "このショートカットは既に使われています。";
+"Space" = "スペース";
+"Click the field and press a shortcut." = "欄をクリックしてショートカットを押してください。";
+"Clear Shortcut" = "ショートカットを消去";

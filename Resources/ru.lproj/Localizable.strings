@@ -17,3 +17,14 @@
 "Image" = "Изображение";
 "That isn’t an image." = "Это не изображение.";
 "Couldn’t read the cloud index." = "Не удалось прочитать список облака.";
+"Settings…" = "Настройки…";
+"Settings" = "Настройки";
+"Show or Hide Cloud" = "Показать или скрыть облако";
+"Record Shortcut" = "Назначить сочетание";
+"Type a shortcut" = "Нажмите сочетание";
+"Use Command, Option, or Control." = "Добавьте Command, Option или Control.";
+"This shortcut is reserved by macOS." = "Это сочетание зарезервировано macOS.";
+"This shortcut is already in use." = "Это сочетание уже занято.";
+"Space" = "Пробел";
+"Click the field and press a shortcut." = "Нажмите на поле и введите сочетание.";
+"Clear Shortcut" = "Сбросить сочетание";

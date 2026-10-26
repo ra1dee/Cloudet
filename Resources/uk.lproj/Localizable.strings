@@ -17,3 +17,14 @@
 "Image" = "Зображення";
 "That isn’t an image." = "Це не зображення.";
 "Couldn’t read the cloud index." = "Не вдалося прочитати список хмари.";
+"Settings…" = "Параметри…";
+"Settings" = "Параметри";
+"Show or Hide Cloud" = "Показати або сховати хмару";
+"Record Shortcut" = "Призначити поєднання";
+"Type a shortcut" = "Натисніть поєднання";
+"Use Command, Option, or Control." = "Додайте Command, Option або Control.";
+"This shortcut is reserved by macOS." = "Це поєднання зарезервовано macOS.";
+"This shortcut is already in use." = "Це поєднання вже зайняте.";
+"Space" = "Пробіл";
+"Click the field and press a shortcut." = "Натисніть поле і введіть поєднання.";
+"Clear Shortcut" = "Скинути поєднання";

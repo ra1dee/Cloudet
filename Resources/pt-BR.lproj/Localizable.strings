@@ -17,3 +17,14 @@
 "Image" = "Imagem";
 "That isn’t an image." = "Isso não é uma imagem.";
 "Couldn’t read the cloud index." = "Não foi possível ler a lista da nuvem.";
+"Settings…" = "Ajustes…";
+"Settings" = "Ajustes";
+"Show or Hide Cloud" = "Mostrar ou ocultar a nuvem";
+"Record Shortcut" = "Definir atalho";
+"Type a shortcut" = "Pressione um atalho";
+"Use Command, Option, or Control." = "Adicione Command, Option ou Control.";
+"This shortcut is reserved by macOS." = "Este atalho está reservado pelo macOS.";
+"This shortcut is already in use." = "Este atalho já está em uso.";
+"Space" = "Espaço";
+"Click the field and press a shortcut." = "Clique no campo e pressione um atalho.";
+"Clear Shortcut" = "Limpar atalho";

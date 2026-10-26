@@ -17,3 +17,14 @@
 "Image" = "Immagine";
 "That isn’t an image." = "Non è un’immagine.";
 "Couldn’t read the cloud index." = "Impossibile leggere l’elenco della nuvola.";
+"Settings…" = "Impostazioni…";
+"Settings" = "Impostazioni";
+"Show or Hide Cloud" = "Mostra o nascondi la nuvola";
+"Record Shortcut" = "Imposta scorciatoia";
+"Type a shortcut" = "Premi una scorciatoia";
+"Use Command, Option, or Control." = "Aggiungi Comando, Opzione o Controllo.";
+"This shortcut is reserved by macOS." = "Questa scorciatoia è riservata da macOS.";
+"This shortcut is already in use." = "Questa scorciatoia è già in uso.";
+"Space" = "Spazio";
+"Click the field and press a shortcut." = "Fai clic sul campo e premi una scorciatoia.";
+"Clear Shortcut" = "Cancella scorciatoia";

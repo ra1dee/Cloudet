@@ -17,3 +17,14 @@
 "Image" = "Afbeelding";
 "That isn’t an image." = "Dit is geen afbeelding.";
 "Couldn’t read the cloud index." = "De wolkenlijst kon niet worden gelezen.";
+"Settings…" = "Instellingen…";
+"Settings" = "Instellingen";
+"Show or Hide Cloud" = "Wolk tonen of verbergen";
+"Record Shortcut" = "Sneltoets instellen";
+"Type a shortcut" = "Druk op een sneltoets";
+"Use Command, Option, or Control." = "Voeg Command, Option of Control toe.";
+"This shortcut is reserved by macOS." = "Deze sneltoets is gereserveerd door macOS.";
+"This shortcut is already in use." = "Deze sneltoets is al in gebruik.";
+"Space" = "Spatie";
+"Click the field and press a shortcut." = "Klik op het veld en druk op een sneltoets.";
+"Clear Shortcut" = "Sneltoets wissen";

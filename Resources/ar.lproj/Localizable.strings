@@ -17,3 +17,14 @@
 "Image" = "صورة";
 "That isn’t an image." = "هذه ليست صورة.";
 "Couldn’t read the cloud index." = "تعذّر قراءة قائمة السحابة.";
+"Settings…" = "الإعدادات…";
+"Settings" = "الإعدادات";
+"Show or Hide Cloud" = "إظهار السحابة أو إخفاؤها";
+"Record Shortcut" = "تعيين اختصار";
+"Type a shortcut" = "اضغط اختصارًا";
+"Use Command, Option, or Control." = "أضف Command أو Option أو Control.";
+"This shortcut is reserved by macOS." = "هذا الاختصار محجوز لنظام macOS.";
+"This shortcut is already in use." = "هذا الاختصار مستخدم بالفعل.";
+"Space" = "مسافة";
+"Click the field and press a shortcut." = "انقر الحقل ثم اضغط اختصارًا.";
+"Clear Shortcut" = "مسح الاختصار";

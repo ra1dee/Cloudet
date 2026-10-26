@@ -87,6 +87,21 @@ enum AppTests {
             expect(false, "threw \(error)")
         }
 
+        let spotlight = KeyCombo(keyCode: 49, modifiers: .command)
+        expect(ShortcutRules.isReserved(spotlight, system: [spotlight]), "spotlight conflict")
+        expect(
+            !ShortcutRules.isReserved(KeyCombo(keyCode: 8, modifiers: [.command, .option]), system: [spotlight]),
+            "unrelated shortcut"
+        )
+        expect(ShortcutRules.isReserved(KeyCombo(keyCode: 48, modifiers: .command), system: []), "command-tab")
+        expect(!ShortcutRules.hasChordModifier(.shift), "shift alone")
+        expect(ShortcutRules.hasChordModifier([.command, .shift]), "command and shift")
+        let system = SystemHotKeys.enabled()
+        expect(!system.isEmpty, "system shortcuts were not read")
+        if system.contains(spotlight) {
+            expect(ShortcutRules.isReserved(spotlight, system: system), "enabled spotlight")
+        }
+
         if failed {
             fputs("tests failed\n", stderr)
             exit(1)

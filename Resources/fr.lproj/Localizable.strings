@@ -17,3 +17,14 @@
 "Image" = "Image";
 "That isn’t an image." = "Ce n’est pas une image.";
 "Couldn’t read the cloud index." = "Impossible de lire la liste du nuage.";
+"Settings…" = "Réglages…";
+"Settings" = "Réglages";
+"Show or Hide Cloud" = "Afficher ou masquer le nuage";
+"Record Shortcut" = "Définir un raccourci";
+"Type a shortcut" = "Appuyez sur un raccourci";
+"Use Command, Option, or Control." = "Ajoutez Command, Option ou Control.";
+"This shortcut is reserved by macOS." = "Ce raccourci est réservé par macOS.";
+"This shortcut is already in use." = "Ce raccourci est déjà utilisé.";
+"Space" = "Espace";
+"Click the field and press a shortcut." = "Cliquez sur le champ, puis appuyez sur un raccourci.";
+"Clear Shortcut" = "Effacer le raccourci";

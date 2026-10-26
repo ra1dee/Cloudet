@@ -11,6 +11,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private var panel: CloudPanel?
     private var statusItem: NSStatusItem?
     private var layoutCancellable: AnyCancellable?
+    private let hotKeys = HotKeyCenter()
+    private var settingsWindow: SettingsWindow?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupStatusItem()
@@ -21,6 +23,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             name: .cloudetShowCloud,
             object: nil
         )
+        hotKeys.onPress = { [weak self] in self?.togglePanel() }
+        hotKeys.restoreSavedShortcut()
     }
 
     private func setupStatusItem() {
@@ -37,6 +41,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(.separator())
         menu.addItem(withTitle: L10n.tr("Clear Cloud"), action: #selector(clearBuffer), keyEquivalent: "")
         menu.addItem(.separator())
+        menu.addItem(withTitle: L10n.tr("Settings…"), action: #selector(openSettings), keyEquivalent: ",")
         menu.addItem(withTitle: L10n.tr("Quit Cloudet"), action: #selector(quit), keyEquivalent: "q")
         for item in menu.items {
             item.target = self
@@ -142,6 +147,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @objc private func clearBuffer() {
         guard !model.files.isEmpty else { return }
         model.clear()
+    }
+
+    @objc private func openSettings() {
+        if settingsWindow == nil {
+            settingsWindow = SettingsWindow(hotKeys: hotKeys)
+        }
+        settingsWindow?.show()
     }
 
     @objc private func quit() {

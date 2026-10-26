@@ -49,6 +49,11 @@ jobs:
           body: |
             macOS 14 or later. Apple Silicon and Intel.
 
+            **What's new**
+
+            - Set a keyboard shortcut to show or hide the cloud. Choose it from Settings in the menu bar.
+            - Cloudet warns you if that shortcut is already reserved by macOS, and does not enable it.
+
             Download the DMG, open it, and drag **Cloudet** into Applications. The first time, right-click the app and choose Open. This GitHub build is not notarized.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

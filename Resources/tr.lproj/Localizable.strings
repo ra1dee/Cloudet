@@ -17,3 +17,14 @@
 "Image" = "Görüntü";
 "That isn’t an image." = "Bu bir görüntü değil.";
 "Couldn’t read the cloud index." = "Bulut listesi okunamadı.";
+"Settings…" = "Ayarlar…";
+"Settings" = "Ayarlar";
+"Show or Hide Cloud" = "Bulutu göster veya gizle";
+"Record Shortcut" = "Kısayol ata";
+"Type a shortcut" = "Bir kısayola basın";
+"Use Command, Option, or Control." = "Command, Option veya Control ekleyin.";
+"This shortcut is reserved by macOS." = "Bu kısayol macOS tarafından ayrılmış.";
+"This shortcut is already in use." = "Bu kısayol zaten kullanılıyor.";
+"Space" = "Boşluk";
+"Click the field and press a shortcut." = "Alana tıklayın ve bir kısayola basın.";
+"Clear Shortcut" = "Kısayolu temizle";
